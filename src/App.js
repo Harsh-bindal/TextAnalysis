@@ -13,7 +13,7 @@ export default function App() {
 
       <div className="App">
       <Routes>
-        <Route  path="/textAnalysis" element={<Textbar></Textbar>} ></Route>
+        <Route  path="/" element={<Textbar></Textbar>} ></Route>
         <Route exact path="/About" element={<About></About>} />
         <Route exact path="/Textbar" element={<Textbar></Textbar>}></Route>
       </Routes>

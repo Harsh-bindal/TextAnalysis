@@ -9,7 +9,7 @@ export default function Navbar() {
       <>
 
 <div className="topContainer">
-    <Link to="/textAnalysis" className="topLeft">
+    <Link to="/" className="topLeft">
        Home
     </Link>
     <div className="topMiddle">
