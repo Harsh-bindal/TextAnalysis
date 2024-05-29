@@ -1,0 +1,101 @@
+
+/* * {
+    background: black;
+    background-image: url("https://e0.pxfuel.com/wallpapers/208/582/desktop-wallpaper-best-high-resolution-background-green-hop-background-yellow-and-green-abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+.aboutContainer
+{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 5%;
+  margin-top: 40px;
+  width: 100%;
+ 
+}
+
+.upperSection
+{
+    width: 100%;
+ 
+}
+
+.aboutLowerSection
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+
+
+.lowerLeft
+{
+    margin-top: 20px;
+}
+
+.lowerLeft p
+{    
+    text-align: justify;   
+}
+
+
+.profilePhoto
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    
+    
+}
+
+.lowerRight
+{
+    display:flex ;
+    flex-direction: column;
+    float: right;
+}
+
+
+.nameAuthor
+{
+   text-align: center;
+   justify-content: center;
+   margin-left: 10px;
+   margin-top: 5px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.heading
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: solid 1px grey;
+    color: midnightblue;
+
+}
+
+@media screen and (max-width : 590px) {
+    .profilePhoto
+    {
+        height: 150px;
+        width: 150px;
+    }
+
+    .nameAuthor
+    {
+     
+      font-size: 20px;
+      color: darkred;
+      font-weight: 600;
+    }
+    
+    
+}

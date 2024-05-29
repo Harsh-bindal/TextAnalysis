@@ -1,0 +1,56 @@
+
+.boxes
+{
+    margin: 20px 5%;
+    width: 90%;
+    background-color: red;
+    background: #fdfdfd;
+    border: 1px solid  grey;
+    padding: 0 8%;
+    border-radius: 5px;
+}
+
+.countBottom
+{
+    margin: 0;
+    padding: 25px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.countBottom li
+{
+    border-right: 1px solid grey;
+    padding: 10px;
+    text-align: -webkit-match-parent;
+    display: list-item;
+}
+
+.countBottom li p
+{
+    text-transform: uppercase;
+}
+
+
+.countBottom li span {
+    color: #60a6e9;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+  @media only screen and (max-width: 732px)  {
+
+
+    .countBottom li
+    {
+        margin-bottom: 20px;
+        border-bottom: solid black 1px;
+    }
+
+  
+  }
