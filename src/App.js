@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from "./components/Navbar/Navbar"
 import Textbar from "./components/TextBar/Textbar"
 import About from './pages/About/About'
-import "./app.css"
 import { Route,Routes,BrowserRouter as Router } from 'react-router-dom'
 
 export default function App() {
