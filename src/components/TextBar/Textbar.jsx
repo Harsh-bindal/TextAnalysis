@@ -64,7 +64,7 @@ export default function Textbar(props) {
    useEffect(()=>
    {
      state.updatePresent(text);
-   } , [text])
+   } , [text,state])
 
 
 

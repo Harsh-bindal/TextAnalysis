@@ -13,7 +13,7 @@ export default function Navbar() {
        Home
     </Link>
     <div className="topMiddle">
-        Word Counter
+        Text-analysis
     </div>
     <Link to="/About" className="topRight">
         About
